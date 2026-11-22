@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== SEO: заголовок и описание (поменять при необходимости) ===== -->
+  <title>Константин Адылбаев — риелтор в Уфе | Покупка, продажа квартир, ипотека</title>
+  <meta name="description" content="Частный риелтор Константин Адылбаев в Уфе. Подбор и сопровождение сделок с недвижимостью, покупка и продажа квартир, новостройки, ипотека под ключ. Бесплатная консультация." />
+
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Константин Адылбаев — риелтор в Уфе" />
+  <meta property="og:description" content="Подбор и сопровождение сделок с недвижимостью в Уфе. Квартиры, новостройки, ипотека под ключ." />
+  <meta property="og:image" content="https://picsum.photos/seed/realtor-ufa-og/1200/630" />
+  <meta property="og:locale" content="ru_RU" />
+
+  <!-- ===== Favicon (emoji через data URI, без внешних файлов) ===== -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>" />
+
+  <!-- ===== Google Fonts: Montserrat (заголовки) + Inter (текст) ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ================= ШАПКА ================= -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <!-- Логотип-имя -->
+      <a href="#top" class="logo">Константин&nbsp;Адылбаев<span class="logo-accent">.</span></a>
+
+      <!-- Навигация (якорные ссылки по блокам) -->
+      <nav class="main-nav" id="mainNav" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#process">Как я работаю</a></li>
+          <li><a href="#portfolio">Объекты</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#faq">Вопросы</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#contacts" class="btn btn-gold btn-sm">Консультация</a>
+        <!-- Бургер (виден на мобильных) -->
+        <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="mainNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="hero">
+      <div class="container hero-content reveal">
+        <p class="hero-eyebrow">Частный риелтор · г. Уфа</p>
+        <h1 class="hero-title">Константин Адылбаев</h1>
+        <p class="hero-subtitle">Подбор и сопровождение сделок с&nbsp;недвижимостью в&nbsp;Уфе</p>
+        <p class="hero-text">Покупаю и продаю квартиры, подбираю надёжные новостройки, оформляю ипотеку под ключ. Работаю прозрачно и беру юридическую ответственность на себя.</p>
+        <div class="hero-cta">
+          <a href="#contacts" class="btn btn-gold btn-lg">Бесплатная консультация</a>
+          <a href="#services" class="btn btn-ghost btn-lg">Мои услуги</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= СЧЁТЧИКИ ДОСТИЖЕНИЙ ================= -->
+    <section class="stats">
+      <div class="container stats-grid">
+        <div class="stat reveal">
+          <div class="stat-num"><span data-count="120">0</span>+</div>
+          <div class="stat-label">успешных сделок</div>
+        </div>
+        <div class="stat reveal">
+          <div class="stat-num"><span data-count="9">0</span></div>
+          <div class="stat-label">лет опыта</div>
+        </div>
+        <div class="stat reveal">
+          <div class="stat-num"><span data-count="100">0</span>%</div>
+          <div class="stat-label">юридическая чистота</div>
+        </div>
+        <div class="stat reveal">
+          <div class="stat-num"><span data-count="40">0</span>+</div>
+          <div class="stat-label">новостроек-партнёров</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= УСЛУГИ ================= -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Услуги</h2>
+          <p class="section-sub">Три основных направления работы со мной</p>
+        </div>
+
+        <div class="cards-grid">
+          <!-- Карточка услуги 1 -->
+          <article class="card service-card reveal">
+            <div class="card-icon" aria-hidden="true">🔑</div>
+            <h3 class="card-title">Покупка квартиры</h3>
+            <p class="card-desc">Подберу варианты под ваш бюджет и задачи, организую показы, проверю объект и проведу сделку до регистрации права.</p>
+            <!-- Цену менять здесь -->
+            <p class="card-price">от <strong>40 000 ₽</strong></p>
+            <a href="#contacts" class="card-link">Обсудить задачу →</a>
+          </article>
+
+          <!-- Карточка услуги 2 -->
+          <article class="card service-card reveal">
+            <div class="card-icon" aria-hidden="true">🏷️</div>
+            <h3 class="card-title">Продажа недвижимости</h3>
+            <p class="card-desc">Оценю объект, подготовлю рекламу, отфильтрую покупателей и выстрою торг в вашу пользу. Продам дороже и быстрее.</p>
+            <p class="card-price">от <strong>50 000 ₽</strong></p>
+            <a href="#contacts" class="card-link">Оставить заявку →</a>
+          </article>
+
+          <!-- Карточка услуги 3 -->
+          <article class="card service-card reveal">
+            <div class="card-icon" aria-hidden="true">🏦</div>
+            <h3 class="card-title">Ипотека под ключ</h3>
+            <p class="card-desc">Подберу выгодную программу среди банков-партнёров, соберу документы и проведу сделку от одобрения ипотеки до выхода на регистрацию.</p>
+            <p class="card-price">от <strong>25 000 ₽</strong></p>
+            <a href="#contacts" class="card-link">Рассчитать →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= КАК Я РАБОТАЮ ================= -->
+    <section class="section process" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Как я работаю</h2>
+          <p class="section-sub">Понятный путь от заявки до ключей</p>
+        </div>
+
+        <ol class="steps-grid">
+          <li class="step reveal">
+            <span class="step-num">01</span>
+            <h3 class="step-title">Заявка</h3>
+            <p class="step-desc">Созваниваемся, обсуждаем цель, бюджет и сроки. Договор — прозрачный, без скрытых платежей.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">02</span>
+            <h3 class="step-title">Подбор</h3>
+            <p class="step-desc">Формирую список объектов под ваш запрос и организую показы в удобное время.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">03</span>
+            <h3 class="step-title">Проверка документов</h3>
+            <p class="step-desc">Юридическая экспертиза: история объекта, собственники, обременения, долги. Гарантирую чистоту.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">04</span>
+            <h3 class="step-title">Сделка</h3>
+            <p class="step-desc">Готовлю договор, провожу безопасные расчёты и регистрирую переход права. Передаю ключи.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= ПОРТФОЛИО / ОБЪЕКТЫ ================= -->
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Объекты</h2>
+          <p class="section-sub">Примеры подобранных и проданных квартир</p>
+        </div>
+
+        <div class="portfolio-grid">
+          <!-- Карточка объекта. Фото — picsum.photos c уникальным seed -->
+          <article class="property reveal">
+            <div class="property-media">
+              <img src="https://picsum.photos/seed/ufa-flat-1/600/400" alt="Квартира в ЖК «Артгород»" loading="lazy" />
+              <span class="property-tag">Новостройка</span>
+            </div>
+            <div class="property-body">
+              <h3 class="property-title">ЖК «Артгород»</h3>
+              <p class="property-meta">2 комнаты · 62 м² · 7/16 эт.</p>
+              <p class="property-price">7 900 000 ₽</p>
+            </div>
+          </article>
+
+          <article class="property reveal">
+            <div class="property-media">
+              <img src="https://picsum.photos/seed/ufa-flat-2/600/400" alt="Квартира в ЖК «Панорама»" loading="lazy" />
+              <span class="property-tag">Вторичка</span>
+            </div>
+            <div class="property-body">
+              <h3 class="property-title">ЖК «Панорама»</h3>
+              <p class="property-meta">3 комнаты · 84 м² · 12/22 эт.</p>
+              <p class="property-price">11 400 000 ₽</p>
+            </div>
+          </article>
+
+          <article class="property reveal">
+            <div class="property-media">
+              <img src="https://picsum.photos/seed/ufa-flat-3/600/400" alt="Студия в ЖК «Гринландия»" loading="lazy" />
+              <span class="property-tag">Новостройка</span>
+            </div>
+            <div class="property-body">
+              <h3 class="property-title">ЖК «Гринландия»</h3>
+              <p class="property-meta">Студия · 28 м² · 5/9 эт.</p>
+              <p class="property-price">3 650 000 ₽</p>
+            </div>
+          </article>
+
+          <article class="property reveal">
+            <div class="property-media">
+              <img src="https://picsum.photos/seed/ufa-flat-4/600/400" alt="Квартира в ЖК «Солнечный»" loading="lazy" />
+              <span class="property-tag">Ипотека</span>
+            </div>
+            <div class="property-body">
+              <h3 class="property-title">ЖК «Солнечный»</h3>
+              <p class="property-meta">1 комната · 41 м² · 3/10 эт.</p>
+              <p class="property-price">5 200 000 ₽</p>
+            </div>
+          </article>
+
+          <article class="property reveal">
+            <div class="property-media">
+              <img src="https://picsum.photos/seed/ufa-flat-5/600/400" alt="Квартира в ЖК «Твоя история»" loading="lazy" />
+              <span class="property-tag">Новостройка</span>
+            </div>
+            <div class="property-body">
+              <h3 class="property-title">ЖК «Твоя история»</h3>
+              <p class="property-meta">2 комнаты · 58 м² · 9/17 эт.</p>
+              <p class="property-price">8 700 000 ₽</p>
+            </div>
+          </article>
+
+          <article class="property reveal">
+            <div class="property-media">
+              <img src="https://picsum.photos/seed/ufa-flat-6/600/400" alt="Квартира в ЖК «Огни Уфы»" loading="lazy" />
+              <span class="property-tag">Вторичка</span>
+            </div>
+            <div class="property-body">
+              <h3 class="property-title">ЖК «Огни Уфы»</h3>
+              <p class="property-meta">3 комнаты · 76 м² · 14/19 эт.</p>
+              <p class="property-price">10 100 000 ₽</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ОТЗЫВЫ ================= -->
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Отзывы клиентов</h2>
+          <p class="section-sub">Реальные истории покупки и продажи</p>
+        </div>
+
+        <div class="cards-grid">
+          <figure class="card review-card reveal">
+            <div class="stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <blockquote>«Константин нашёл квартиру мечты за две недели. Всё проверил, объяснил простым языком, ипотеку одобрили с первого раза. Спасибо!»</blockquote>
+            <figcaption class="review-author">
+              <span class="avatar" aria-hidden="true">АМ</span>
+              <span class="author-name">Алина М.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="card review-card reveal">
+            <div class="stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <blockquote>«Продали нашу трёшку выше рынка и быстро. Приятно работать с человеком, который держит слово и бережёт нервы.»</blockquote>
+            <figcaption class="review-author">
+              <span class="avatar" aria-hidden="true">ДС</span>
+              <span class="author-name">Дмитрий С.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="card review-card reveal">
+            <div class="stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <blockquote>«Покупали впервые, боялись мошенников. Константин полностью сопроводил сделку до регистрации. Чувствовали полную безопасность.»</blockquote>
+            <figcaption class="review-author">
+              <span class="avatar" aria-hidden="true">ЕК</span>
+              <span class="author-name">Елена и Марат К.</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ (аккордеон) ================= -->
+    <section class="section faq" id="faq">
+      <div class="container container-narrow">
+        <div class="section-head reveal">
+          <h2 class="section-title">Частые вопросы</h2>
+          <p class="section-sub">Коротко о главном</p>
+        </div>
+
+        <div class="accordion reveal">
+          <!-- Вопрос 1 -->
+          <div class="acc-item">
+            <button class="acc-header" aria-expanded="false" aria-controls="ans1" id="q1">
+              Сколько стоит ваша работа?
+              <span class="acc-icon" aria-hidden="true"></span>
+            </button>
+            <div class="acc-body" id="ans1" role="region" aria-labelledby="q1" hidden>
+              <p>Стоимость зависит от типа сделки и указана в блоке «Услуги». На бесплатной консультации называю точную сумму — она фиксируется в договоре и не меняется.</p>
+            </div>
+          </div>
+
+          <!-- Вопрос 2 -->
+          <div class="acc-item">
+            <button class="acc-header" aria-expanded="false" aria-controls="ans2" id="q2">
+              Вы работаете с ипотекой?
+              <span class="acc-icon" aria-hidden="true"></span>
+            </button>
+            <div class="acc-body" id="ans2" role="region" aria-labelledby="q2" hidden>
+              <p>Да. Подбираю программу среди банков-партнёров, помогаю собрать документы и сопровождаю до одобрения и выхода на сделку — формат «ипотека под ключ».</p>
+            </div>
+          </div>
+
+          <!-- Вопрос 3 -->
+          <div class="acc-item">
+            <button class="acc-header" aria-expanded="false" aria-controls="ans3" id="q3">
+              Как гарантируется юридическая чистота?
+              <span class="acc-icon" aria-hidden="true"></span>
+            </button>
+            <div class="acc-body" id="ans3" role="region" aria-labelledby="q3" hidden>
+              <p>Проверяю историю объекта, собственников, обременения и задолженности, работаю только с проверенными документами и безопасными формами расчётов.</p>
+            </div>
+          </div>
+
+          <!-- Вопрос 4 -->
+          <div class="acc-item">
+            <button class="acc-header" aria-expanded="false" aria-controls="ans4" id="q4">
+              Консультация правда бесплатная?
+              <span class="acc-icon" aria-hidden="true"></span>
+            </button>
+            <div class="acc-body" id="ans4" role="region" aria-labelledby="q4" hidden>
+              <p>Да, первая консультация бесплатна и ни к чему не обязывает. Отвечу на вопросы и честно скажу, смогу ли быть полезен в вашей ситуации.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= КОНТАКТЫ + ФОРМА ================= -->
+    <section class="section contacts" id="contacts">
+      <div class="container contacts-grid">
+        <!-- Левая колонка: контакты и соцсети -->
+        <div class="contacts-info reveal">
+          <h2 class="section-title">Свяжитесь со мной</h2>
+          <p class="section-sub">Оставьте заявку — отвечу в течение рабочего дня.</p>
+
+          <!-- Телефон и почта: менять здесь -->
+          <ul class="contact-list">
+            <li><span class="contact-label">Телефон</span><a href="tel:+79170000000">+7 (917) 000-00-00</a></li>
+            <li><span class="contact-label">Почта</span><a href="mailto:info@rieltor-ufa.example">info@rieltor-ufa.example</a></li>
+            <li><span class="contact-label">Город</span><span>Уфа, Республика Башкортостан</span></li>
+          </ul>
+
+          <!-- Соцсети: ВК реальная ссылка, Telegram/WhatsApp — заглушки href="#" -->
+          <div class="socials">
+            <a class="social-btn vk" href="https://vk.com/rieltor_102" target="_blank" rel="noopener">ВКонтакте</a>
+            <a class="social-btn tg" href="#" aria-label="Telegram (заглушка)">Telegram</a>
+            <a class="social-btn wa" href="#" aria-label="WhatsApp (заглушка)">WhatsApp</a>
+          </div>
+        </div>
+
+        <!-- Правая колонка: форма заявки (без бэкенда, JS-заглушка) -->
+        <form class="lead-form reveal" id="leadForm" novalidate>
+          <div class="field">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" name="name" placeholder="Например, Мария" required />
+          </div>
+          <div class="field">
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required />
+          </div>
+          <div class="field">
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="4" placeholder="Кратко опишите задачу: купить / продать / ипотека"></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold btn-block">Отправить заявку</button>
+          <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= ФУТЕР ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#top" class="logo logo-footer">Константин Адылбаев<span class="logo-accent">.</span></a>
+      <p class="footer-copy">© <span id="year">2026</span> · Частный риелтор в Уфе. Не является публичной офертой.</p>
+      <a href="https://vk.com/rieltor_102" target="_blank" rel="noopener" class="footer-vk">vk.com/rieltor_102</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
